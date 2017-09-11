@@ -1,8 +1,7 @@
-
-var fn = function (params) {
+var fn = function(params) {
     console.log("nextTick is triggered");
 };
-var fnExit = function (params) {
+var fnExit = function(params) {
     console.log("process will exit");
 };
 
